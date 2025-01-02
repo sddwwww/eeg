@@ -16,8 +16,6 @@ from mesh_renderer import Renderer
 
 # from kiui.lpips import LPIPS
 
-# from dataset import eeg_pretrain_dataset
-# from config import *
 from brains.dataset import Dataset
 
 class GUI:
@@ -79,6 +77,7 @@ class GUI:
         if self.opt.negative_prompt is not None:
             self.negative_prompt = self.opt.negative_prompt
 
+        # load eeg input
         if self.opt.eeg_path:
             self.load_egg_input()
         
@@ -370,7 +369,7 @@ class GUI:
 
     def load_egg_input(self):
         # load eeg
-        idx_to_test = 0
+        idx_to_test = 36
         test_img_names_file = 'brains_data/test_image_names.pth'
         test_seq_file = 'brains_data/test_seqs.pth'
         test_pred_file = 'brains_data/test_pred.pth'
