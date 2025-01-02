@@ -4,6 +4,7 @@ This repository contains the official implementation for [DreamGaussian: Generat
 
 ## Dataset
 download [brains_data](https://drive.google.com/file/d/1NCK3RvyaQ9jKn4aJHSlBq9LFzmRYbxfH/view?usp=sharing)
+
 download [clipfinetune_model.pkl](https://drive.google.com/file/d/1oRTQY4sxftyfqOMcUZkSdnbz2AylK2ey/view?usp=drive_link)
 
 ## Install
