@@ -37,9 +37,13 @@ pip install git+https://github.com/bytedance/ImageDream/#subdirectory=extern/Ima
 ## Usage
 
 eeg-to-3D:
+```bash
+
 # 1
 python main.py --config configs/eeg.yaml  save_path=name
 
 # 2
 python main2.py --config configs/eeg.yaml  save_path=name
+
+```
 
